@@ -3,7 +3,7 @@
   "name": "BrowserFox",
   "version": "1.0",
   "description": "The API Client that lives in your sidebar.",
-  "permissions": ["sidePanel", "storage"],
+  "permissions": ["sidePanel","activeTab", "scripting", "storage"],
   "host_permissions": ["<all_urls>"],
   "side_panel": {
     "default_path": "index.html"
